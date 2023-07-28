@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.box{ 
+    
+    width: 100%;
+    height:inherit;
+}
+nav{
+    border-bottom: 2px solid rgb(204, 241, 174);
+    
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: rgb(244, 252, 255);
+   box-shadow: 3px 3px 10px rgb(88, 114, 207);
+   position: fixed;
+   
+
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    width: 70%; 
+}
+a{
+    font-size: 25px;
+    color:rgb(255, 0, 195) ;
+   
+
+}
+.home, .shows,.cartoons,.games,.shop,.reviews{
+    height: 100vh;
+  
+    background: rgb(255, 150, 196);
+background: linear-gradient(63deg, rgba(255, 219, 234, 0.503) 21%, rgba(201, 241, 255, 0.544) 100%);
+    background-position: center;
+    background-repeat: repeat-y;
+     background-size: inherit;
+     width: 100%;
+    
+}
+.container{scroll-behavior: smooth;}
+a{
+    color: rgb(78, 56, 165);
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+}
+a::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(45, 43, 113);
+    position: absolute;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;
+}
+
+h1,p{
+   font-family: sans-serif; 
+   
+}
+.home-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    padding: 100px;
+}
+.welcome{
+text-align: justify;
+width: 45%;
+padding: 100px;
+
+height: 50vh;
+}
+.span-disney{
+    font-size: larger;
+    color: rgb(255, 0, 162);
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 20px;
+     background-color:rgb(92, 111, 255);
+     box-shadow: 3px 10px 40px rgb(88, 114, 207);
+     border: 1px solid ;
+     color: bisque;
+   
+}
+button:hover{
+    background-color:rgb(48, 66, 198);
+    color: rgb(255, 255, 255);
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.featured{
+    height: 30vh;
+  
+    display: flex;
+    width: 100%;
+  justify-content:space-between;
+  align-items:center;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: rgb(190, 255, 233);
+}
+#img{
+    display: flex;
+    padding: 15px;
+    border-radius: 20%;
+}
+#img:hover{
+    width: 160px;
+    height: 240px;
+    transition: 0.2s;
+}
+#princess{
+padding-top: 50px;
+}
+H2{
+    text-align: center;
+    padding: 10PX;
+    font-family: sans-serif;
+
+}
+.container{
+    height: 100vh;
+  
+    padding-top: 100px;
+
+}
+.row{
+   width: 100%;
+   height: 320px ;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.col-3{
+    width: 200px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+#col-img{
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#col-img:hover{
+    width: 200px;
+    height: 270px;
+}
+.new{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.box1{
+    width: 270px;
+    height: 268px;
+    background-size: cover;
+    box-shadow: 5px 8px 15px rgb(52, 52, 157);
+
+}
+.sign-below1,.sign-below2,.sign-below3,.sign-below4{
+    background-color: rgb(156, 60, 247);
+    color: white; 
+   width: inherit;
+    text-align: center;
+}
+.sign-below1:hover,.sign-below2:hover,.sign-below3:hover,.sign-below4:hover{
+    background-color: rgb(104, 11, 192);
+}
+.cartoons{
+    padding-top: 70px;
+}
+.new-foryou,.collect-sign{
+width: 100%;
+padding: 10px;
+text-align: center;
+font-size: 20px;
+color: rgb(78, 56, 165);
+font-weight: 800;
+}
+.collections{
+    width: 100%;
+    height: 38vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img-collect{
+
+    border-radius: 10px;
+transition: 0.2s;
+}
+#img-collect:hover{
+    width: 400px;
+    height: 260px;
+}
+.box2{
+    width: 270px;
+    height: 268px;
+    background-size: cover;
+    box-shadow: 5px 8px 15px rgb(52, 52, 157);}
+.sign-below-game{
+    background-color: rgb(156, 60, 247);
+    color: white; 
+   width: inherit;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+.sign-below-game:hover{
+    background-color: rgb(114, 26, 197);
+}
+.box-games{
+    padding-top: 90px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 56vh;
+  
+}
+
+.play-game{
+    margin-bottom: 100px;
+    background-image: url(https://img.freepik.com/free-vector/alien-night-planet-landscape-space-game-background_107791-12914.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+/*shop box*/
+.shop-box{
+    padding-top:80px;
+    width:100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+   
+}
+.item{
+    width: 210px;
+    height: 50vh;
+   background-color: rgb(218, 218, 255);
+   text-align: center;
+margin-right: 10px;
+box-shadow: 3px 3px 7px rgb(134, 134, 232);
+}
+.item:hover{
+    background-color: rgb(255, 218, 218);
+}
+.shop-now{
+    background-image: url(https://cdn-ssl.s7.disneystore.com/is/image/ShopDisney/sb_hp_flash-deal_20230405?fit=constrain&cropN=0,0,1,1&fmt=webp&qlt=70&wid=1200);
+    width: 100%;
+    height:25vh ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    transition: 0.8s;
+}
+.shop-now:hover{
+  
+    height:28vh ;
+}
+.today-only{
+
+display: flex;
+flex-direction: column;
+align-items: end;
+margin-right: 40px;
+text-align: center;
+font-family: sans-serif;
+font-size: larger;
+}
+.review-box{
+    padding-top: 100px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.review{
+    width: 270px;
+    height: 370px;
+    box-shadow: 4px 5px 9px rgb(123, 123, 210);
+    text-align: center;
+    background-color: white;
+}
+.top{
+    width: 270px;
+    height: 100px;
+    border: 1px solid rgb(189, 189, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(233, 251, 255);
+}
+.top:hover{
+    background-color: rgb(164, 186, 255);
+}
+.ava1,.ava2,.ava3,.ava4{
+   
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.review-text{
+    padding: 5px;
+    
+}
+.ava1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_uVFON-M8r1WqwwWId94RNqpDqsZG-5AuTzQGa4VsqSMpx4FbILFGw0Zhdm0qAQSXqY&usqp=CAU);
+}
+.ava2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGoEFSoLAbh6i-vShQkHxWeudM4Sa5Ufh2eQ&usqp=CAU);
+}
+.ava3{
+    background-image: url(https://memepedia.ru/wp-content/uploads/2018/12/uabrxs1ax28-1.jpg);
+}
+.ava4{
+    background-image: url(https://www.meme-arsenal.com/memes/24576dc5d3bb70d81eceb5bb4e11d6ae.jpg);
+}

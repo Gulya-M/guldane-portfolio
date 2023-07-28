@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://virtualbackgrounds.site/wp-content/uploads/2021/05/game-of-thrones-iron-throne.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    object-fit: fill;
+}
+layout
+.your-choice{
+    text-shadow: 2px 2px 2px aq;
+}
+img{
+    object-fit: fill;
+    transition: 1.2s;
+    box-shadow: 10px 10px 10px 10px rgb(127, 178, 255);
+    z-index: 2;
+    border-radius: 50%;
+    margin: 20px;
+   
+}
+img:hover{
+    transform: scale(1.2);
+}
+.first-div{
+    display: flex;
+    justify-content: space-evenly;}
+.enemies{
+    display: flex;
+    justify-content: space-around;
+}
+.arena{
+    background-image: url(https://helios-i.mashable.com/imagery/articles/00IPu7iLesKzrHuV5njgySf/images-7.fill.size_2000x1124.v1619018988.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.fighting{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+
+.fight{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(185, 185, 236);
+    border-radius: 30%;
+    box-shadow: 8px 8px 8px 5px rgb(127, 168, 255);
+    z-index: 0.8;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    transition: 1s;
+}
+.fight:hover{
+    transform: scale(1.2);
+}
+  span{
+font-size: 30px;
+color: rgb(255, 255, 255);
+text-decoration: solid;
+display:flex;
+font-family: 'Cinzel', serif;
+
+
+  }
+  .fire{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(137, 137, 234);
+    border-radius: 30%;
+    box-shadow: 10px 10px 10px 10px rgb(179, 194, 236);
+    z-index: 0.8;
+    margin: 0 auto;
+    display: flex; 
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+  }
+  .fire:hover{background-color: rgb(99, 99, 255);}
+.health{
+    background-color: red;
+    width: 220px;
+    height: 10px;
+    border: 1px solid black;
+
+}
+.layout{
+    background-color: green;
+    width: 100%;
+    height: inherit;
+    border: 1px solid black;
+}
+.health2{
+    background-color: red;
+    width: 220px;
+    height: 10px;
+    border: 1px solid black;
+
+}
+.layout2{
+    background-color: green;
+    width: 100%;
+    height: inherit;
+    border: 1px solid black;
+}

@@ -1,0 +1,50 @@
+.box{
+    width: 80%;
+    height: 200px;
+    border: 1px solid rgb(6, 34, 91);
+    background-color: rgba(215, 248, 248, 0.7);
+
+   margin: 20px;
+   font-size: larger;
+   padding: 20px;
+   border-radius: 20px;
+font-family: sans-serif;
+ 
+}
+.box:hover{
+    background-color: aquamarine;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://vips.org/wp-content/uploads/2018/09/question-background.png);
+    background-size: contain;
+}
+#submit{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: larger;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: rgb(150, 176, 247);
+}
+.kronometre{
+    width: 200px;
+    height: 190px;
+    border: 1px solid rgb(53, 73, 255);
+    padding: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color: rgba(222, 255, 252) ;
+    margin-left: 1190px;
+    border-radius: 8px;
+ position: fixed;
+    
+}

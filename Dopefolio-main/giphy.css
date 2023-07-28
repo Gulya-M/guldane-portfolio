@@ -1,0 +1,52 @@
+img {
+    margin: 4px;
+
+}
+
+.others {
+    margin: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    font-family: sans-serif;
+    color: beige;
+    background: linear-gradient(to right, #6699ff 0%, #ff3399 100%);
+    border: 0cap;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #cc99ff 0%, #99ccff 100%);
+    color: rgb(66, 33, 176);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://t3.ftcdn.net/jpg/03/51/49/02/360_F_351490213_S7dVUfS6K6UFsmDOQIa0eySWD8mkiGm0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.searchBox {
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+input {
+    width: 280px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.others {
+    display: flex;
+    justify-content: space-around;
+}

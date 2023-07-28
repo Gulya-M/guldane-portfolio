@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./game.css">
+    <script src="https://kit.fontawesome.com/981210673e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="background">
+            <div class="about">
+                <span class="your-choice">Your choice</span>
+                <span class="your-power">Power:</span>
+                <span class="your-life">Life:</span>
+                <span class="your-nick">Nickname</span>
+                <span class="your-house">House</span>
+
+            </div>
+            <div class="first-div">
+
+                <div class="box1" data-name="Daenerys Targaryen" data-power="15" data-life="100"
+                    data-nickname="Mother of dragons" data-house="Targaryen">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/daenerys-targaryen-photo-1552490759.png?crop=0.743xw:1.00xh;0.0760xw,0&resize=480:*"
+                        alt="" width="250" height="250">
+                </div>
+                <div class="box2" data-name="Jon Snow" data-power="18" data-life="100"
+                    data-nickname="King in the North" data-house="Stark">
+                    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/06/15/09/jon-snow.jpg?quality=75&width=1200&auto=webp"
+                        alt="" width="250" height="250">
+                </div>
+                <div class="box3" data-name="Cersei Lannister" data-power="15" data-life="100"
+                    data-nickname="Queen Regent " data-house="Lannister">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/5f8f248d9a5dfbefe114c63092d035e6b3392d40130c5e87aa865f91eb78f50b-1555293787.jpg"
+                        alt="" width="250" height="250">
+                </div>
+                <div class="box4" data-name="Night King" data-power="20" data-life="100" data-nickname="White Walker"
+                    data-house="Walker">
+                    <img src="https://cdn.vox-cdn.com/thumbor/onfjiafqeyDLGNdQ3Ee2xASh0VA=/0x0:3733x2100/1400x1400/filters:focal(1340x645:1341x646)/cdn3.vox-cdn.com/uploads/chorus_asset/file/9084309/1508_promo_stills_12001692731.jpg"
+                        alt="" width="250" height="250">
+                </div>
+
+            </div>
+            <div class="div2">
+                <span>Choose your enemy</span>
+                <div class="enemies"></div>
+            </div>
+            <div class="div3">
+                <span>Enemy</span>
+            </div>
+            <button class="fight">Start game</button>
+        </div>
+    </div>
+    <div class="arena">
+        <div class="fighting">
+            <div class="hero">
+                <span class="heropower"></span>
+                <span class="herolife"></span>
+                 <div class="health"> <div class="layout"></div></div>
+                
+            </div>
+            <div class="buttons">
+                <button class="fire">FIRE</button>
+
+            </div>
+            <div class="enemy">
+                <span class="enemypower"></span>
+                <span class="enemylife"></span>
+                <div class="health2"> <div class="layout2"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./game.js"></script>
+</body>
+
+</html>
